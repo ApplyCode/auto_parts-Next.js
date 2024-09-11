@@ -1,7 +1,4 @@
-import CardComponent from './components/CardComponent'
-import PhoneIcon from './components/PhoneIcon'
-import SubHeadComponent from './components/SubHeadComponent'
-import { CALL_TO, PHONE_NUMBER, MAKE_ICONS, SEO } from './config'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import PartComponent from './components/PartComponent'
