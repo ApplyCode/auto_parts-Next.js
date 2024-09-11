@@ -166,9 +166,7 @@ export const ENGINE_SIZES = [
     "10.0"
 ]
 
-interface MakeType {
-    [key: string]: string[];
-}
+
 
 export const MAKE: MakeType = {
     "Choose Your Car": ["Choose Model"],
