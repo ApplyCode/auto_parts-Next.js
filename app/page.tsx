@@ -8,7 +8,13 @@ import PartComponent from './components/PartComponent'
 import { FaSearch } from 'react-icons/fa'
 import Head from 'next/head'
 
-
+export const metadata = {
+  title: 'Auto Parts Pro - Quality Tested (OEM) Used Auto Parts For Sale',
+  description: "Revitalize your ride with premium used auto parts. Top-quality, affordable, and sourced from trusted suppliers. Unleash your vehicle's potential today!",
+  alternates: {
+    canonical: 'https://usedautoparts.pro'
+  }
+}
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white mt-24">
