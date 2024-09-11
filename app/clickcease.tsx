@@ -12,11 +12,7 @@ const ClickCease = () => {
                 script.src = target;var elem = document.head;elem.appendChild(script);
             `}
             </Script>
-            <noscript>
-                <a href='https://www.clickcease.com' rel='nofollow'>
-                    <img src='https://monitor.clickcease.com' alt='ClickCease' />
-                    </a>
-            </noscript>
+
 
         </>
     );
