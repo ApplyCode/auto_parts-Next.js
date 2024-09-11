@@ -3,10 +3,7 @@ import PhoneIcon from './components/PhoneIcon'
 import SubHeadComponent from './components/SubHeadComponent'
 import { CALL_TO, PHONE_NUMBER, MAKE_ICONS, SEO } from './config'
 import Link from 'next/link'
-import Image from 'next/image'
-import PartComponent from './components/PartComponent'
-import { FaSearch } from 'react-icons/fa'
-import Head from 'next/head'
+
 
 export const metadata = {
   title: 'Auto Parts Pro - Quality Tested (OEM) Used Auto Parts For Sale',
